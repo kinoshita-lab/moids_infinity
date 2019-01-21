@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/kazbo/Dropbox/github_moids/ver_infinity/kicad/moids_infinity/moids_infinity.sch</source>
+    <date>2018年08月12日 18時38分31秒</date>
+    <tool>Eeschema 5.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>moids_infinity</title>
+        <company>kinoshita-lab.</company>
+        <rev/>
+        <date/>
+        <source>moids_infinity.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/jacob_sparking/" tstamps="/5B24A870/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>jacob_sparking.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LMV358</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="moids_infinity-rescue" part="LMV358" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B364F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B3A5E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B3B8E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B3F19</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B3FDB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B43E6</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B4462</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B46C4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B4AE1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>560p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B4B44</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B5543</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B55DD</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="moids_infinity-rescue" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B5738</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B586B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B59DD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1M</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B62E7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>560p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B648F</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1B65A4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BB6CB</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2sc3325-y</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="moids_infinity-rescue" part="BC817" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BB88D</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BBABC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BBBCD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>NE555</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="moids_infinity-rescue" part="NE555" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BDA84</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BFAF9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1C838C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2sc33s5-y</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="moids_infinity-rescue" part="BC817" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1C8648</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1C884A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1C9D17</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2sc3325-y</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="moids_infinity-rescue" part="BC817" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1CA8E9</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1CAA2C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1M</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1CAB0C</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2sa1313</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="moids_infinity-rescue" part="BC856" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1CE220</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D09FC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1F0DE9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="moids_infinity-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B24E81E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B24ED96</tstamp>
+    </comp>
+    <comp ref="ECM1">
+      <value>ECM_C9767</value>
+      <footprint>custom_pcb_footprints:CONDENCER_MICROPHONE_C9767</footprint>
+      <libsource lib="moids_infinity-rescue" part="ECM_C9767" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2F3292</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>SSM3K329R</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="moids_infinity-rescue" part="Q_NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B49A7A9</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="moids_infinity-rescue" part="TEST" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C391A</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>1k</value>
+      <footprint>custom_pcb_footprints:Potentiometer_Trimmer-TSR-C3305</footprint>
+      <libsource lib="moids_infinity-rescue" part="POT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5C519A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="moids_infinity-rescue" part="Conn_02x03_Odd_Even" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6BD050</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1M</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6F903B</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>digit_junk_trans</value>
+      <footprint>custom_pcb_footprints:digit_junk_transformer</footprint>
+      <libsource lib="moids_infinity-rescue" part="digit_junk_trans-RESCUE-moids_infinity" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B24A97B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>200</value>
+      <footprint>custom_pcb_footprints:R_0603_wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="R" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B24AB17</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2200p</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B25158D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2200p</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B251927</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>2200p</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B25196E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>2200p</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="moids_infinity-rescue" part="C" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B251ECE</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>custom_pcb_footprints:DO-214AC</footprint>
+      <libsource lib="moids_infinity-rescue" part="D" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B252176</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>custom_pcb_footprints:DO-214AC</footprint>
+      <libsource lib="moids_infinity-rescue" part="D" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B2522A9</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>custom_pcb_footprints:DO-214AC</footprint>
+      <libsource lib="moids_infinity-rescue" part="D" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B252428</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>custom_pcb_footprints:DO-214AC</footprint>
+      <libsource lib="moids_infinity-rescue" part="D" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B252475</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NPN_ECB</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Wide</footprint>
+      <libsource lib="moids_infinity-rescue" part="Q_NPN_ECB" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B254C96</tstamp>
+    </comp>
+    <comp ref="JT1">
+      <value>TERMINAL</value>
+      <footprint>custom_pcb_footprints:SolderWirePad_single_SMD_1x3mm</footprint>
+      <libsource lib="moids_infinity-rescue" part="TEST" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B4C42ED</tstamp>
+    </comp>
+    <comp ref="JT2">
+      <value>TERMINAL</value>
+      <footprint>custom_pcb_footprints:SolderWirePad_single_SMD_1x3mm</footprint>
+      <libsource lib="moids_infinity-rescue" part="TEST" description=""/>
+      <sheetpath names="/jacob_sparking/" tstamps="/5B24A870/"/>
+      <tstamp>5B4C435C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="BC817">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="BC856">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC856</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="Conn_02x03_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="D">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="ECM_C9767">
+      <fields>
+        <field name="Reference">ECM</field>
+        <field name="Value">ECM_C9767</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="LMV358">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*Pitch0.65mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*Pitch0.635mm*</fp>
+        <fp>LFCSP*2x2mm*Pitch0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="NE555">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*3x3mm*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="POT">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="Q_NMOS_GSD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="Q_NPN_ECB">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_ECB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="TEST">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="moids_infinity-rescue" part="digit_junk_trans-RESCUE-moids_infinity">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">digit_junk_trans-RESCUE-moids_infinity</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="NotConnected"/>
+        <pin num="2" name="reg_a" type="BiDi"/>
+        <pin num="3" name="output" type="BiDi"/>
+        <pin num="4" name="4" type="NotConnected"/>
+        <pin num="5" name="corrector" type="BiDi"/>
+        <pin num="6" name="reg_b" type="BiDi"/>
+        <pin num="7" name="base" type="BiDi"/>
+        <pin num="8" name="8" type="NotConnected"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="moids_infinity-rescue">
+      <uri>/home/kazbo/Dropbox/github_moids/ver_infinity/kicad/moids_infinity/moids_infinity-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q5-Pad3)">
+      <node ref="R17" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C12-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="4" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q3-Pad3)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C3-Pad2)">
+      <node ref="ECM1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="13" name="mute">
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="14" name="timer_out">
+      <node ref="RV1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="15" name="Net-(RV1-Pad1)">
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="16" name="jacob_terminal_2">
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="ECM1" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="JT2" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="17" name="spark_gate">
+      <node ref="R14" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C8-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(C6-Pad1)">
+      <node ref="D1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C5-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="22" name="+5V">
+      <node ref="R18" pin="2"/>
+      <node ref="T1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C9-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C9-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="27" name="Net-(C15-Pad1)">
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="28" name="transformer_out">
+      <node ref="C14" pin="2"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="29" name="Net-(Q6-Pad1)">
+      <node ref="T1" pin="5"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="30" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3"/>
+      <node ref="T1" pin="7"/>
+    </net>
+    <net code="31" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="T1" pin="6"/>
+    </net>
+    <net code="32" name="Net-(C16-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="33" name="Net-(T1-Pad8)">
+      <node ref="T1" pin="8"/>
+    </net>
+    <net code="34" name="Net-(T1-Pad4)">
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="35" name="Net-(T1-Pad1)">
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="36" name="jacob_terminal_1">
+      <node ref="C17" pin="1"/>
+      <node ref="JT1" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,1222 @@
+EESchema Schematic File Version 4
+LIBS:moids_infinity-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title "moids_infinity"
+Date ""
+Rev ""
+Comp "kinoshita-lab."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L moids_infinity-rescue:LMV358 U1
+U 1 1 5B1B364F
+P 3350 3650
+F 0 "U1" H 3350 3850 50  0000 L CNN
+F 1 "LMV358" H 3350 3450 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3350 3650 50  0001 C CNN
+F 3 "" H 3350 3650 50  0001 C CNN
+	1    3350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:LMV358 U1
+U 2 1 5B1B38CB
+P 5950 3550
+F 0 "U1" H 5950 3750 50  0000 L CNN
+F 1 "LMV358" H 5950 3350 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5950 3550 50  0001 C CNN
+F 3 "" H 5950 3550 50  0001 C CNN
+	2    5950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR01
+U 1 1 5B1B3920
+P 5850 3850
+F 0 "#PWR01" H 5850 3600 50  0001 C CNN
+F 1 "GND" H 5850 3700 50  0000 C CNN
+F 2 "" H 5850 3850 50  0001 C CNN
+F 3 "" H 5850 3850 50  0001 C CNN
+	1    5850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR02
+U 1 1 5B1B3938
+P 3250 3950
+F 0 "#PWR02" H 3250 3700 50  0001 C CNN
+F 1 "GND" H 3250 3800 50  0000 C CNN
+F 2 "" H 3250 3950 50  0001 C CNN
+F 3 "" H 3250 3950 50  0001 C CNN
+	1    3250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:C C11
+U 1 1 5B1B3A5E
+P 8750 2600
+F 0 "C11" H 8775 2700 50  0000 L CNN
+F 1 "0.1u" H 8775 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8788 2450 50  0001 C CNN
+F 3 "" H 8750 2600 50  0001 C CNN
+	1    8750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR03
+U 1 1 5B1B3AC2
+P 8750 2800
+F 0 "#PWR03" H 8750 2550 50  0001 C CNN
+F 1 "GND" H 8750 2650 50  0000 C CNN
+F 2 "" H 8750 2800 50  0001 C CNN
+F 3 "" H 8750 2800 50  0001 C CNN
+	1    8750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R7
+U 1 1 5B1B3B8E
+P 2650 3750
+F 0 "R7" V 2730 3750 50  0000 C CNN
+F 1 "1k" V 2650 3750 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 2580 3750 50  0001 C CNN
+F 3 "" H 2650 3750 50  0001 C CNN
+	1    2650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:C C3
+U 1 1 5B1B3F19
+P 2150 3750
+F 0 "C3" V 2300 3750 50  0000 L CNN
+F 1 "0.1u" V 2350 3800 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 2188 3600 50  0001 C CNN
+F 3 "" H 2150 3750 50  0001 C CNN
+	1    2150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R2
+U 1 1 5B1B3FDB
+P 1850 3550
+F 0 "R2" V 1930 3550 50  0000 C CNN
+F 1 "10k" V 1850 3550 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 1780 3550 50  0001 C CNN
+F 3 "" H 1850 3550 50  0001 C CNN
+	1    1850 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR04
+U 1 1 5B1B4035
+P 1850 3900
+F 0 "#PWR04" H 1850 3650 50  0001 C CNN
+F 1 "GND" H 1850 3750 50  0000 C CNN
+F 2 "" H 1850 3900 50  0001 C CNN
+F 3 "" H 1850 3900 50  0001 C CNN
+	1    1850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R4
+U 1 1 5B1B43E6
+P 2550 2650
+F 0 "R4" V 2630 2650 50  0000 C CNN
+F 1 "10k" V 2550 2650 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 2480 2650 50  0001 C CNN
+F 3 "" H 2550 2650 50  0001 C CNN
+	1    2550 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R5
+U 1 1 5B1B4462
+P 2550 3000
+F 0 "R5" V 2630 3000 50  0000 C CNN
+F 1 "10k" V 2550 3000 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 2480 3000 50  0001 C CNN
+F 3 "" H 2550 3000 50  0001 C CNN
+	1    2550 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:C C4
+U 1 1 5B1B46C4
+P 2250 3000
+F 0 "C4" H 2275 3100 50  0000 L CNN
+F 1 "0.1u" H 2275 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2288 2850 50  0001 C CNN
+F 3 "" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR05
+U 1 1 5B1B4752
+P 2550 3200
+F 0 "#PWR05" H 2550 2950 50  0001 C CNN
+F 1 "GND" H 2550 3050 50  0000 C CNN
+F 2 "" H 2550 3200 50  0001 C CNN
+F 3 "" H 2550 3200 50  0001 C CNN
+	1    2550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR06
+U 1 1 5B1B477B
+P 2250 3200
+F 0 "#PWR06" H 2250 2950 50  0001 C CNN
+F 1 "GND" H 2250 3050 50  0000 C CNN
+F 2 "" H 2250 3200 50  0001 C CNN
+F 3 "" H 2250 3200 50  0001 C CNN
+	1    2250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R10
+U 1 1 5B1B4AE1
+P 3350 4350
+F 0 "R10" V 3430 4350 50  0000 C CNN
+F 1 "1M" V 3350 4350 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 3280 4350 50  0001 C CNN
+F 3 "" H 3350 4350 50  0001 C CNN
+	1    3350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:C C5
+U 1 1 5B1B4B44
+P 3350 4650
+F 0 "C5" V 3500 4650 50  0000 L CNN
+F 1 "560p" V 3550 4700 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 3388 4500 50  0001 C CNN
+F 3 "" H 3350 4650 50  0001 C CNN
+	1    3350 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:C C6
+U 1 1 5B1B5543
+P 4100 3650
+F 0 "C6" V 4250 3650 50  0000 L CNN
+F 1 "0.1u" V 4300 3700 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 4138 3500 50  0001 C CNN
+F 3 "" H 4100 3650 50  0001 C CNN
+	1    4100 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R11
+U 1 1 5B1B55DD
+P 4400 3800
+F 0 "R11" V 4480 3800 50  0000 C CNN
+F 1 "100k" V 4400 3800 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 4330 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR07
+U 1 1 5B1B56E0
+P 4400 4050
+F 0 "#PWR07" H 4400 3800 50  0001 C CNN
+F 1 "GND" H 4400 3900 50  0000 C CNN
+F 2 "" H 4400 4050 50  0001 C CNN
+F 3 "" H 4400 4050 50  0001 C CNN
+	1    4400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:D D1
+U 1 1 5B1B5738
+P 4700 3650
+F 0 "D1" H 4700 3750 50  0000 C CNN
+F 1 "D" H 4700 3550 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4700 3650 50  0001 C CNN
+F 3 "" H 4700 3650 50  0001 C CNN
+	1    4700 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R12
+U 1 1 5B1B586B
+P 4950 3800
+F 0 "R12" V 5030 3800 50  0000 C CNN
+F 1 "1M" V 4950 3800 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 4880 3800 50  0001 C CNN
+F 3 "" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR08
+U 1 1 5B1B595C
+P 4950 4050
+F 0 "#PWR08" H 4950 3800 50  0001 C CNN
+F 1 "GND" H 4950 3900 50  0000 C CNN
+F 2 "" H 4950 4050 50  0001 C CNN
+F 3 "" H 4950 4050 50  0001 C CNN
+	1    4950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:C C8
+U 1 1 5B1B59DD
+P 5250 3800
+F 0 "C8" V 5400 3800 50  0000 L CNN
+F 1 "0.1u" V 5450 3850 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 5288 3650 50  0001 C CNN
+F 3 "" H 5250 3800 50  0001 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR09
+U 1 1 5B1B5ABD
+P 5250 4050
+F 0 "#PWR09" H 5250 3800 50  0001 C CNN
+F 1 "GND" H 5250 3900 50  0000 C CNN
+F 2 "" H 5250 4050 50  0001 C CNN
+F 3 "" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R15
+U 1 1 5B1B62E7
+P 5900 4100
+F 0 "R15" V 5980 4100 50  0000 C CNN
+F 1 "1M" V 5900 4100 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 5830 4100 50  0001 C CNN
+F 3 "" H 5900 4100 50  0001 C CNN
+	1    5900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:C C9
+U 1 1 5B1B648F
+P 5900 4350
+F 0 "C9" V 6050 4350 50  0000 L CNN
+F 1 "560p" V 6100 4400 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 5938 4200 50  0001 C CNN
+F 3 "" H 5900 4350 50  0001 C CNN
+	1    5900 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R13
+U 1 1 5B1B65A4
+P 5550 4600
+F 0 "R13" V 5630 4600 50  0000 C CNN
+F 1 "100k" V 5550 4600 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 5480 4600 50  0001 C CNN
+F 3 "" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR010
+U 1 1 5B1B6692
+P 5550 4800
+F 0 "#PWR010" H 5550 4550 50  0001 C CNN
+F 1 "GND" H 5550 4650 50  0000 C CNN
+F 2 "" H 5550 4800 50  0001 C CNN
+F 3 "" H 5550 4800 50  0001 C CNN
+	1    5550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR011
+U 1 1 5B1B6E2E
+P 2250 1100
+F 0 "#PWR011" H 2250 950 50  0001 C CNN
+F 1 "+5V" H 2250 1240 50  0000 C CNN
+F 2 "" H 2250 1100 50  0001 C CNN
+F 3 "" H 2250 1100 50  0001 C CNN
+	1    2250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR012
+U 1 1 5B1B724E
+P 2250 1500
+F 0 "#PWR012" H 2250 1250 50  0001 C CNN
+F 1 "GND" H 2250 1350 50  0000 C CNN
+F 2 "" H 2250 1500 50  0001 C CNN
+F 3 "" H 2250 1500 50  0001 C CNN
+	1    2250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR013
+U 1 1 5B1B80BD
+P 2550 2450
+F 0 "#PWR013" H 2550 2300 50  0001 C CNN
+F 1 "+5V" H 2550 2590 50  0000 C CNN
+F 2 "" H 2550 2450 50  0001 C CNN
+F 3 "" H 2550 2450 50  0001 C CNN
+	1    2550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR014
+U 1 1 5B1B810A
+P 8750 2350
+F 0 "#PWR014" H 8750 2200 50  0001 C CNN
+F 1 "+5V" H 8750 2490 50  0000 C CNN
+F 2 "" H 8750 2350 50  0001 C CNN
+F 3 "" H 8750 2350 50  0001 C CNN
+	1    8750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR015
+U 1 1 5B1B8157
+P 5850 3200
+F 0 "#PWR015" H 5850 3050 50  0001 C CNN
+F 1 "+5V" H 5850 3340 50  0000 C CNN
+F 2 "" H 5850 3200 50  0001 C CNN
+F 3 "" H 5850 3200 50  0001 C CNN
+	1    5850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR016
+U 1 1 5B1B81A4
+P 1850 3300
+F 0 "#PWR016" H 1850 3150 50  0001 C CNN
+F 1 "+5V" H 1850 3440 50  0000 C CNN
+F 2 "" H 1850 3300 50  0001 C CNN
+F 3 "" H 1850 3300 50  0001 C CNN
+	1    1850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR017
+U 1 1 5B1B81F1
+P 3250 3250
+F 0 "#PWR017" H 3250 3100 50  0001 C CNN
+F 1 "+5V" H 3250 3390 50  0000 C CNN
+F 2 "" H 3250 3250 50  0001 C CNN
+F 3 "" H 3250 3250 50  0001 C CNN
+	1    3250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:PWR_FLAG #FLG018
+U 1 1 5B1B95D4
+P 2850 1100
+F 0 "#FLG018" H 2850 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 1250 50  0000 C CNN
+F 2 "" H 2850 1100 50  0001 C CNN
+F 3 "" H 2850 1100 50  0001 C CNN
+	1    2850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR019
+U 1 1 5B1B963E
+P 3150 1100
+F 0 "#PWR019" H 3150 950 50  0001 C CNN
+F 1 "+5V" H 3150 1240 50  0000 C CNN
+F 2 "" H 3150 1100 50  0001 C CNN
+F 3 "" H 3150 1100 50  0001 C CNN
+	1    3150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:PWR_FLAG #FLG020
+U 1 1 5B1B968B
+P 3150 1250
+F 0 "#FLG020" H 3150 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 1400 50  0000 C CNN
+F 2 "" H 3150 1250 50  0001 C CNN
+F 3 "" H 3150 1250 50  0001 C CNN
+	1    3150 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR021
+U 1 1 5B1B96D8
+P 2850 1250
+F 0 "#PWR021" H 2850 1000 50  0001 C CNN
+F 1 "GND" H 2850 1100 50  0000 C CNN
+F 2 "" H 2850 1250 50  0001 C CNN
+F 3 "" H 2850 1250 50  0001 C CNN
+	1    2850 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 4050 0    60   Input ~ 0
+mute
+$Comp
+L moids_infinity-rescue:R R16
+U 1 1 5B1BB6CB
+P 7100 3550
+F 0 "R16" V 7180 3550 50  0000 C CNN
+F 1 "1k" V 7100 3550 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 7030 3550 50  0001 C CNN
+F 3 "" H 7100 3550 50  0001 C CNN
+	1    7100 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L moids_infinity-rescue:BC817 Q5
+U 1 1 5B1BB88D
+P 7650 3550
+F 0 "Q5" H 7850 3625 50  0000 L CNN
+F 1 "2sc3325-y" H 7850 3550 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7850 3475 50  0001 L CIN
+F 3 "" H 7650 3550 50  0001 L CNN
+	1    7650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR022
+U 1 1 5B1BBA51
+P 7750 3900
+F 0 "#PWR022" H 7750 3650 50  0001 C CNN
+F 1 "GND" H 7750 3750 50  0000 C CNN
+F 2 "" H 7750 3900 50  0001 C CNN
+F 3 "" H 7750 3900 50  0001 C CNN
+	1    7750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R17
+U 1 1 5B1BBABC
+P 7750 3100
+F 0 "R17" V 7830 3100 50  0000 C CNN
+F 1 "10k" V 7750 3100 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 7680 3100 50  0001 C CNN
+F 3 "" H 7750 3100 50  0001 C CNN
+	1    7750 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:C C13
+U 1 1 5B1BBBCD
+P 10900 3850
+F 0 "C13" V 11050 3850 50  0000 L CNN
+F 1 "10u" V 11100 3900 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 10938 3700 50  0001 C CNN
+F 3 "" H 10900 3850 50  0001 C CNN
+	1    10900 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR023
+U 1 1 5B1BD730
+P 7750 2850
+F 0 "#PWR023" H 7750 2700 50  0001 C CNN
+F 1 "+5V" H 7750 2990 50  0000 C CNN
+F 2 "" H 7750 2850 50  0001 C CNN
+F 3 "" H 7750 2850 50  0001 C CNN
+	1    7750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR024
+U 1 1 5B1BD78C
+P 10900 2850
+F 0 "#PWR024" H 10900 2700 50  0001 C CNN
+F 1 "+5V" H 10900 2990 50  0000 C CNN
+F 2 "" H 10900 2850 50  0001 C CNN
+F 3 "" H 10900 2850 50  0001 C CNN
+	1    10900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR025
+U 1 1 5B1BD839
+P 10900 4050
+F 0 "#PWR025" H 10900 3800 50  0001 C CNN
+F 1 "GND" H 10900 3900 50  0000 C CNN
+F 2 "" H 10900 4050 50  0001 C CNN
+F 3 "" H 10900 4050 50  0001 C CNN
+	1    10900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:NE555 U2
+U 1 1 5B1BDA84
+P 9600 3500
+F 0 "U2" H 9200 3850 50  0000 L CNN
+F 1 "NE555" H 9700 3850 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9600 3500 50  0001 C CNN
+F 3 "" H 9600 3500 50  0001 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR026
+U 1 1 5B1BDB21
+P 9600 4000
+F 0 "#PWR026" H 9600 3750 50  0001 C CNN
+F 1 "GND" H 9600 3850 50  0000 C CNN
+F 2 "" H 9600 4000 50  0001 C CNN
+F 3 "" H 9600 4000 50  0001 C CNN
+	1    9600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR027
+U 1 1 5B1BDB80
+P 9600 2850
+F 0 "#PWR027" H 9600 2700 50  0001 C CNN
+F 1 "+5V" H 9600 2990 50  0000 C CNN
+F 2 "" H 9600 2850 50  0001 C CNN
+F 3 "" H 9600 2850 50  0001 C CNN
+	1    9600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:C C12
+U 1 1 5B1BFAF9
+P 8850 3700
+F 0 "C12" V 9000 3700 50  0000 L CNN
+F 1 "0.1u" V 9050 3750 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 8888 3550 50  0001 C CNN
+F 3 "" H 8850 3700 50  0001 C CNN
+	1    8850 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR028
+U 1 1 5B1BFBB2
+P 8850 4000
+F 0 "#PWR028" H 8850 3750 50  0001 C CNN
+F 1 "GND" H 8850 3850 50  0000 C CNN
+F 2 "" H 8850 4000 50  0001 C CNN
+F 3 "" H 8850 4000 50  0001 C CNN
+	1    8850 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9100 3700
+Text GLabel 10300 3300 2    60   Output ~ 0
+timer_out
+Text Notes 1350 800  0    100  ~ 0
+Power
+$Comp
+L moids_infinity-rescue:C C2
+U 1 1 5B1C838C
+P 1950 7000
+F 0 "C2" V 2100 7000 50  0000 L CNN
+F 1 "10u" V 2150 7050 50  0000 R TNN
+F 2 "Capacitors_SMD:C_0603" H 1988 6850 50  0001 C CNN
+F 3 "" H 1950 7000 50  0001 C CNN
+	1    1950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR029
+U 1 1 5B1C85C1
+P 1950 7300
+F 0 "#PWR029" H 1950 7050 50  0001 C CNN
+F 1 "GND" H 1950 7150 50  0000 C CNN
+F 2 "" H 1950 7300 50  0001 C CNN
+F 3 "" H 1950 7300 50  0001 C CNN
+	1    1950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:BC817 Q1
+U 1 1 5B1C8648
+P 1200 6550
+F 0 "Q1" H 1400 6625 50  0000 L CNN
+F 1 "2sc3325-y" H 1400 6550 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1400 6475 50  0001 L CIN
+F 3 "" H 1200 6550 50  0001 L CNN
+	1    1200 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R1
+U 1 1 5B1C884A
+P 1100 7000
+F 0 "R1" V 1180 7000 50  0000 C CNN
+F 1 "1k" V 1100 7000 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 1030 7000 50  0001 C CNN
+F 3 "" H 1100 7000 50  0001 C CNN
+	1    1100 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR030
+U 1 1 5B1C8907
+P 1100 7300
+F 0 "#PWR030" H 1100 7050 50  0001 C CNN
+F 1 "GND" H 1100 7150 50  0000 C CNN
+F 2 "" H 1100 7300 50  0001 C CNN
+F 3 "" H 1100 7300 50  0001 C CNN
+	1    1100 7300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 5250 0    60   Input ~ 0
+timer_out
+$Comp
+L moids_infinity-rescue:R R3
+U 1 1 5B1C9D17
+P 1700 6550
+F 0 "R3" V 1780 6550 50  0000 C CNN
+F 1 "1k" V 1700 6550 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 1630 6550 50  0001 C CNN
+F 3 "" H 1700 6550 50  0001 C CNN
+	1    1700 6550
+	0    1    1    0   
+$EndComp
+Text GLabel 1100 6250 1    60   Output ~ 0
+mute
+$Comp
+L moids_infinity-rescue:BC817 Q2
+U 1 1 5B1CA8E9
+P 2350 6550
+F 0 "Q2" H 2550 6625 50  0000 L CNN
+F 1 "2sc3325-y" H 2550 6550 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2550 6475 50  0001 L CIN
+F 3 "" H 2350 6550 50  0001 L CNN
+	1    2350 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R6
+U 1 1 5B1CAA2C
+P 2600 6050
+F 0 "R6" V 2680 6050 50  0000 C CNN
+F 1 "1k" V 2600 6050 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 2530 6050 50  0001 C CNN
+F 3 "" H 2600 6050 50  0001 C CNN
+	1    2600 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R9
+U 1 1 5B1CAB0C
+P 3300 6600
+F 0 "R9" V 3380 6600 50  0000 C CNN
+F 1 "1M" V 3300 6600 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 3230 6600 50  0001 C CNN
+F 3 "" H 3300 6600 50  0001 C CNN
+	1    3300 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:BC856 Q3
+U 1 1 5B1CE220
+P 3200 5750
+F 0 "Q3" H 3400 5825 50  0000 L CNN
+F 1 "2sa1313" H 3400 5750 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3400 5675 50  0001 L CIN
+F 3 "" H 3200 5750 50  0001 L CNN
+	1    3200 5750
+	1    0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR031
+U 1 1 5B1D001F
+P 2600 7300
+F 0 "#PWR031" H 2600 7050 50  0001 C CNN
+F 1 "GND" H 2600 7150 50  0000 C CNN
+F 2 "" H 2600 7300 50  0001 C CNN
+F 3 "" H 2600 7300 50  0001 C CNN
+	1    2600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR032
+U 1 1 5B1D009C
+P 3300 7300
+F 0 "#PWR032" H 3300 7050 50  0001 C CNN
+F 1 "GND" H 3300 7150 50  0000 C CNN
+F 2 "" H 3300 7300 50  0001 C CNN
+F 3 "" H 3300 7300 50  0001 C CNN
+	1    3300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:R R8
+U 1 1 5B1D09FC
+P 3300 5300
+F 0 "R8" V 3380 5300 50  0000 C CNN
+F 1 "10k" V 3300 5300 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 3230 5300 50  0001 C CNN
+F 3 "" H 3300 5300 50  0001 C CNN
+	1    3300 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR033
+U 1 1 5B1D1187
+P 3900 7300
+F 0 "#PWR033" H 3900 7050 50  0001 C CNN
+F 1 "GND" H 3900 7150 50  0000 C CNN
+F 2 "" H 3900 7300 50  0001 C CNN
+F 3 "" H 3900 7300 50  0001 C CNN
+	1    3900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR034
+U 1 1 5B1D24D3
+P 3300 5050
+F 0 "#PWR034" H 3300 4900 50  0001 C CNN
+F 1 "+5V" H 3300 5190 50  0000 C CNN
+F 2 "" H 3300 5050 50  0001 C CNN
+F 3 "" H 3300 5050 50  0001 C CNN
+	1    3300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:C C7
+U 1 1 5B1F0DE9
+P 4400 3050
+F 0 "C7" H 4425 3150 50  0000 L CNN
+F 1 "0.1u" H 4425 2950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4438 2900 50  0001 C CNN
+F 3 "" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR035
+U 1 1 5B1F0EF8
+P 4400 3250
+F 0 "#PWR035" H 4400 3000 50  0001 C CNN
+F 1 "GND" H 4400 3100 50  0000 C CNN
+F 2 "" H 4400 3250 50  0001 C CNN
+F 3 "" H 4400 3250 50  0001 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR036
+U 1 1 5B1F0F84
+P 4400 2850
+F 0 "#PWR036" H 4400 2700 50  0001 C CNN
+F 1 "+5V" H 4400 2990 50  0000 C CNN
+F 2 "" H 4400 2850 50  0001 C CNN
+F 3 "" H 4400 2850 50  0001 C CNN
+	1    4400 2850
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9300 5700 1600 450 
+U 5B24A870
+F0 "jacob_sparking" 100
+F1 "jacob_sparking.sch" 100
+$EndSheet
+$Comp
+L moids_infinity-rescue:LED D2
+U 1 1 5B24E81E
+P 5400 5600
+F 0 "D2" H 5400 5700 50  0000 C CNN
+F 1 "LED" H 5400 5500 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 5400 5600 50  0001 C CNN
+F 3 "" H 5400 5600 50  0001 C CNN
+	1    5400 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moids_infinity-rescue:R R14
+U 1 1 5B24ED96
+P 5400 6000
+F 0 "R14" V 5480 6000 50  0000 C CNN
+F 1 "10k" V 5400 6000 50  0000 C CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 5330 6000 50  0001 C CNN
+F 3 "" H 5400 6000 50  0001 C CNN
+	1    5400 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L moids_infinity-rescue:+5V #PWR037
+U 1 1 5B24F135
+P 5400 5200
+F 0 "#PWR037" H 5400 5050 50  0001 C CNN
+F 1 "+5V" H 5400 5340 50  0000 C CNN
+F 2 "" H 5400 5200 50  0001 C CNN
+F 3 "" H 5400 5200 50  0001 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 5750 2    100  Input ~ 0
+spark_gate
+$Comp
+L moids_infinity-rescue:ECM_C9767 ECM1
+U 1 1 5B2F3292
+P 850 3450
+F 0 "ECM1" H 1000 3450 100 0000 C CNN
+F 1 "ECM_C9767" H 1050 3650 100 0000 C CNN
+F 2 "custom_pcb_footprints:CONDENCER_MICROPHONE_C9767" H 850 3450 100 0001 C CNN
+F 3 "" H 850 3450 100 0001 C CNN
+	1    850  3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:Q_NMOS_GSD Q4
+U 1 1 5B49A7A9
+P 3800 6450
+F 0 "Q4" H 4000 6500 50  0000 L CNN
+F 1 "SSM3K329R" H 4000 6400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4000 6550 50  0001 C CNN
+F 3 "" H 3800 6450 50  0001 C CNN
+	1    3800 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:TEST TP1
+U 1 1 5B4C391A
+P 1100 4750
+F 0 "TP1" H 1100 5050 50  0000 C BNN
+F 1 "TEST" H 1100 5000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1100 4750 50  0001 C CNN
+F 3 "" H 1100 4750 50  0001 C CNN
+	1    1100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:GND #PWR038
+U 1 1 5B4C39FF
+P 1100 4850
+F 0 "#PWR038" H 1100 4600 50  0001 C CNN
+F 1 "GND" H 1100 4700 50  0000 C CNN
+F 2 "" H 1100 4850 50  0001 C CNN
+F 3 "" H 1100 4850 50  0001 C CNN
+	1    1100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L moids_infinity-rescue:POT RV1
+U 1 1 5B5C519A
+P 1950 5250
+F 0 "RV1" V 1775 5250 50  0000 C CNN
+F 1 "1k" V 1850 5250 50  0000 C CNN
+F 2 "custom_pcb_footprints:Potentiometer_Trimmer-TSR-C3305" H 1950 5250 50  0001 C CNN
+F 3 "" H 1950 5250 50  0001 C CNN
+	1    1950 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3250 3250 3350
+Wire Wire Line
+	5850 3200 5850 3250
+Wire Wire Line
+	8750 2450 8750 2350
+Wire Wire Line
+	8750 2750 8750 2800
+Wire Wire Line
+	2800 3750 3000 3750
+Wire Wire Line
+	2500 3750 2300 3750
+Wire Wire Line
+	1400 3750 1850 3750
+Wire Wire Line
+	1850 3750 1850 3700
+Wire Wire Line
+	1850 3400 1850 3300
+Connection ~ 1850 3750
+Wire Wire Line
+	1400 3850 1850 3850
+Wire Wire Line
+	1850 3850 1850 3900
+Wire Wire Line
+	2550 3150 2550 3200
+Wire Wire Line
+	2250 3150 2250 3200
+Wire Wire Line
+	2550 2850 2550 2800
+Wire Wire Line
+	2550 2450 2550 2500
+Wire Wire Line
+	3050 3550 2900 3550
+Connection ~ 2550 2850
+Wire Wire Line
+	2900 3550 2900 2850
+Wire Wire Line
+	3000 3750 3000 4050
+Wire Wire Line
+	3000 4650 3200 4650
+Connection ~ 3000 3750
+Wire Wire Line
+	3000 4350 3200 4350
+Connection ~ 3000 4350
+Wire Wire Line
+	3650 3650 3650 4350
+Connection ~ 3650 4350
+Wire Wire Line
+	3650 4650 3500 4650
+Wire Wire Line
+	3500 4350 3650 4350
+Wire Wire Line
+	3950 3650 3650 3650
+Wire Wire Line
+	4250 3650 4400 3650
+Wire Wire Line
+	4400 3950 4400 4050
+Connection ~ 4400 3650
+Wire Wire Line
+	4950 3950 4950 4050
+Connection ~ 4950 3650
+Wire Wire Line
+	5250 3950 5250 4050
+Connection ~ 5250 3650
+Wire Wire Line
+	5550 4750 5550 4800
+Wire Wire Line
+	2850 1100 2850 1250
+Wire Wire Line
+	3150 1100 3150 1250
+Wire Wire Line
+	6250 3550 6950 3550
+Connection ~ 6250 3550
+Wire Wire Line
+	7750 3250 7750 3300
+Wire Wire Line
+	7250 3550 7450 3550
+Wire Wire Line
+	7750 3750 7750 3900
+Wire Wire Line
+	10900 4000 10900 4050
+Wire Wire Line
+	10900 2850 10900 3600
+Wire Wire Line
+	7750 2850 7750 2950
+Wire Wire Line
+	10100 3500 10100 3600
+Wire Wire Line
+	9600 2850 9600 3100
+Wire Wire Line
+	10100 3600 10900 3600
+Connection ~ 10900 3600
+Connection ~ 10100 3600
+Wire Wire Line
+	9600 3900 9600 4000
+Wire Wire Line
+	8850 3850 8850 4000
+Wire Wire Line
+	9100 3500 8850 3500
+Wire Wire Line
+	8850 3500 8850 3550
+Wire Wire Line
+	9100 3300 7750 3300
+Connection ~ 7750 3300
+Wire Wire Line
+	10300 3300 10100 3300
+Wire Notes Line
+	1850 750  3500 750 
+Wire Notes Line
+	3500 750  3500 1800
+Wire Notes Line
+	3500 1800 700  1800
+Wire Wire Line
+	1950 5400 1950 6550
+Wire Wire Line
+	1850 6550 1950 6550
+Connection ~ 1950 6550
+Wire Wire Line
+	1550 6550 1400 6550
+Wire Wire Line
+	1100 6750 1100 6850
+Wire Wire Line
+	1100 7150 1100 7300
+Wire Wire Line
+	1950 7150 1950 7300
+Wire Wire Line
+	1100 6350 1100 6250
+Wire Wire Line
+	2600 6200 2600 6350
+Wire Wire Line
+	3000 5750 2600 5750
+Wire Wire Line
+	2600 5750 2600 5900
+Wire Wire Line
+	3300 5950 3300 6250
+Wire Wire Line
+	2600 6750 2600 7300
+Wire Wire Line
+	3300 6750 3300 7300
+Wire Wire Line
+	3300 5450 3300 5550
+Connection ~ 3300 6250
+Wire Wire Line
+	3300 5050 3300 5150
+Wire Wire Line
+	4400 2850 4400 2900
+Wire Wire Line
+	4400 3200 4400 3250
+Wire Wire Line
+	5400 5200 5400 5450
+Wire Wire Line
+	5400 5750 5400 5850
+Wire Wire Line
+	4150 5750 3900 5750
+Wire Wire Line
+	1400 3850 1400 4050
+Wire Wire Line
+	2850 4050 3000 4050
+Connection ~ 3000 4050
+Wire Wire Line
+	2900 2850 2550 2850
+Wire Wire Line
+	4850 3650 4950 3650
+Wire Wire Line
+	5550 3650 5650 3650
+Wire Wire Line
+	5650 3450 5250 3450
+Wire Wire Line
+	5250 3450 5250 3650
+Wire Wire Line
+	3900 5750 3900 6150
+Wire Wire Line
+	3600 6450 3600 6250
+Wire Wire Line
+	3600 6250 3300 6250
+Wire Wire Line
+	3900 6650 3900 7300
+Wire Wire Line
+	5550 3650 5550 4100
+Wire Wire Line
+	5550 4100 5750 4100
+Wire Wire Line
+	6050 4100 6250 4100
+Wire Wire Line
+	6250 3550 6250 4100
+Wire Wire Line
+	6250 4350 6050 4350
+Connection ~ 6250 4100
+Wire Wire Line
+	5550 4350 5750 4350
+Connection ~ 5550 4100
+Connection ~ 5550 4350
+Wire Wire Line
+	3900 6150 3900 6100
+Wire Wire Line
+	5400 6150 3900 6150
+Connection ~ 3900 6150
+Wire Wire Line
+	1100 4750 1100 4850
+Wire Wire Line
+	1400 5250 1800 5250
+Wire Wire Line
+	1150 1200 950  1200
+Wire Wire Line
+	950  1200 950  1400
+Wire Wire Line
+	950  1400 1100 1400
+Wire Wire Line
+	1650 1200 1800 1200
+Wire Wire Line
+	1800 1200 1800 1400
+Wire Wire Line
+	1800 1400 1700 1400
+Wire Wire Line
+	1700 1300 1650 1300
+Wire Wire Line
+	1700 1050 1700 1100
+Wire Wire Line
+	1700 1050 1150 1050
+Wire Wire Line
+	1150 1050 1150 1300
+Wire Wire Line
+	1700 1450 1700 1400
+Connection ~ 1700 1400
+Wire Notes Line
+	700  1800 700  750 
+Wire Notes Line
+	700  750  1250 750 
+$Comp
+L moids_infinity-rescue:Conn_02x03_Odd_Even J1
+U 1 1 5B6BD050
+P 1350 1300
+F 0 "J1" H 1400 1500 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1400 1100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1350 1300 50  0001 C CNN
+F 3 "" H 1350 1300 50  0001 C CNN
+	1    1350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1100 1700 1100
+Connection ~ 1700 1100
+Wire Wire Line
+	1700 1450 2250 1450
+Wire Wire Line
+	2250 1450 2250 1500
+Wire Wire Line
+	1850 3750 2000 3750
+Wire Wire Line
+	2550 2850 2250 2850
+Wire Wire Line
+	3000 3750 3050 3750
+Wire Wire Line
+	3000 4350 3000 4650
+Wire Wire Line
+	3650 4350 3650 4650
+Wire Wire Line
+	4400 3650 4550 3650
+Wire Wire Line
+	4950 3650 5250 3650
+Wire Wire Line
+	10900 3600 10900 3700
+Wire Wire Line
+	10100 3600 10100 3700
+Wire Wire Line
+	7750 3300 7750 3350
+Wire Wire Line
+	1950 6550 1950 6850
+Wire Wire Line
+	1950 6550 2150 6550
+Wire Wire Line
+	3300 6250 3300 6450
+Wire Wire Line
+	3000 4050 3000 4350
+Wire Wire Line
+	6250 4100 6250 4350
+Wire Wire Line
+	5550 4100 5550 4350
+Wire Wire Line
+	5550 4350 5550 4450
+Wire Wire Line
+	3900 6150 3900 6250
+Wire Wire Line
+	1700 1400 1650 1400
+Wire Wire Line
+	1700 1100 1700 1300
+Wire Wire Line
+	2600 6350 2450 6350
+Wire Wire Line
+	2600 6750 2450 6750
+$Comp
+L Device:R R19
+U 1 1 5B6F903B
+P 1550 7000
+F 0 "R19" H 1620 7046 50  0000 L CNN
+F 1 "1M" H 1620 6955 50  0000 L CNN
+F 2 "custom_pcb_footprints:R_0603_wide" V 1480 7000 50  0001 C CNN
+F 3 "~" H 1550 7000 50  0001 C CNN
+	1    1550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6850 1950 6850
+Connection ~ 1950 6850
+Wire Wire Line
+	1550 7150 1950 7150
+Connection ~ 1950 7150
+Wire Wire Line
+	1100 1400 1100 1600
+Wire Wire Line
+	1100 1600 1700 1600
+Wire Wire Line
+	1700 1600 1700 1450
+Connection ~ 1100 1400
+Wire Wire Line
+	1100 1400 1150 1400
+Connection ~ 1700 1450
+$EndSCHEMATC

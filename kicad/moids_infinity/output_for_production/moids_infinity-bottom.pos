@@ -1,0 +1,26 @@
+### Module positions - created on Mon Sep 10 12:48:57 2018 ###
+### Printed by Pcbnew version kicad 5.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val        Package                               PosX       PosY       Rot  Side
+C2        10u        C_0603                             86.7500    -3.7800  180.0000  bottom
+C11       0.1u       C_0603                             88.6300    -1.4100  270.0000  bottom
+C12       0.1u       C_0603                             99.0300     5.3500  270.0000  bottom
+C13       10u        C_0603                             96.9200     6.3100  270.0000  bottom
+D2        LED        LED_0603                           81.5200     2.7200    0.0000  bottom
+JT2       TERMINAL   SolderWirePad_single_SMD_1x3mm     59.8600    -7.4900    0.0000  bottom
+Q1        2sc3325-y  SOT-23                             84.1000    -1.0900   90.0000  bottom
+Q2        2sc3325-y  SOT-23                             82.6000    -7.1500    0.0000  bottom
+Q3        2sa1313    SOT-23                             79.3600    -3.1400    0.0000  bottom
+Q4        SSM3K329R  SOT-23                             79.1900     5.5900    0.0000  bottom
+R1        1k         R_0603_wide                        87.0900    -1.3400  270.0000  bottom
+R3        1k         R_0603_wide                        83.9000    -3.8000    0.0000  bottom
+R6        1k         R_0603_wide                        79.4200    -6.7100    0.0000  bottom
+R8        10k        R_0603_wide                        80.3800     0.2100   90.0000  bottom
+R9        1M         R_0603_wide                        74.6900    -8.2300   90.0000  bottom
+R14       10k        R_0603_wide                        84.6600     2.7200    0.0000  bottom
+R18       200        R_0603_wide                        16.1000    -4.1800   90.0000  bottom
+R19       1M         R_0603_wide                        79.2000    -8.4600    0.0000  bottom
+RV1       1k         Potentiometer_Trimmer-TSR-C3305    87.6600    -7.5200   90.0000  bottom
+U2        NE555      SOIC-8_3.9x4.9mm_Pitch1.27mm       92.1400    -1.0300   90.0000  bottom
+## End

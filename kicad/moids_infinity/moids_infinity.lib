@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ECM_C9767
+#
+DEF ECM_C9767 ECM 0 40 Y Y 1 F N
+F0 "ECM" 150 0 100 H V C CNN
+F1 "ECM_C9767" 200 200 100 H V C CNN
+F2 "" 0 0 100 H I C CNN
+F3 "" 0 0 100 H I C CNN
+DRAW
+S 350 -200 0 -700 0 1 0 N
+X 1 1 550 -300 200 L 50 50 1 1 B
+X 2 2 550 -600 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# digit_junk_trans
+#
+DEF digit_junk_trans T 0 40 Y Y 1 F N
+F0 "T" 0 0 100 H V C CNN
+F1 "digit_junk_trans" 0 400 100 H V C CNN
+F2 "" 0 0 100 H I C CNN
+F3 "" 0 0 100 H I C CNN
+DRAW
+S 400 -950 -400 -150 0 1 0 N
+X 1 1 -600 -250 200 R 50 50 1 1 N
+X reg_a 2 -600 -450 200 R 50 50 1 1 B
+X output 3 -600 -650 200 R 50 50 1 1 B
+X 4 4 -600 -850 200 R 50 50 1 1 N
+X emitter 5 600 -250 200 L 50 50 1 1 B
+X reg_b 6 600 -450 200 L 50 50 1 1 B
+X base 7 600 -650 200 L 50 50 1 1 B
+X 8 8 600 -850 200 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+#End Library
